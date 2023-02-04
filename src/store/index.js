@@ -3,6 +3,8 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+import team from  "@/store/team/team"
+
 export default new Vuex.Store({
   state: {
   },
@@ -13,5 +15,6 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
+    team
   }
 })
