@@ -2,6 +2,7 @@
   <div class="mx-auto">
     <v-btn icon plain @mouseenter="hover = true" @mouseleave="hover = false">
       <img
+          @click="$router.push('/trabzonspor')"
           :src=this.getTeam[3].TrabzonLogo
           width="150px"
           height="220px"

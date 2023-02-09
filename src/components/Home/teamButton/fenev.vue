@@ -2,6 +2,7 @@
   <div class="mx-auto">
     <v-btn icon plain @mouseenter="hover = true" @mouseleave="hover = false">
       <img
+          @click="$router.push('/fenerium')"
           :src=this.getTeam[2].FenevLogo
           width="150px"
           height="220px"

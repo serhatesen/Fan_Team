@@ -1,6 +1,8 @@
 <template>
   <div class="mx-auto">
-    <v-btn icon plain @mouseenter="hover = true" @mouseleave="hover = false">
+    <v-btn
+        @click="$router.push('/gsStore')"
+        icon plain @mouseenter="hover = true" @mouseleave="hover = false">
       <img
           :src=this.getTeam[0].GalatasarayLogo
           width="150px"
@@ -13,7 +15,6 @@
 
 <script>
 import {mapGetters} from "vuex";
-
 export default {
   name: "galatasarayView",
   computed: {

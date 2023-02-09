@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "GalatasarayView"
+  name: "FenerbahceView"
 }
 </script>
 

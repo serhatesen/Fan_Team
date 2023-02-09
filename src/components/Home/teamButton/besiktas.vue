@@ -2,6 +2,7 @@
   <div class="mx-auto">
     <v-btn icon plain @mouseenter="hover = true" @mouseleave="hover = false">
       <img
+          @click="$router.push('/kartalYuvasi')"
           :src=this.getTeam[1].BesiktasLogo
           width="150px"
           height="220px"
@@ -13,7 +14,6 @@
 
 <script>
 import {mapGetters} from "vuex";
-
 export default {
   name: "besiktasView",
   computed: {
