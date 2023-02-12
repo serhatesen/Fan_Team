@@ -137,15 +137,23 @@
         </v-col>
       </v-row>
     </v-container>
+    <v-container fluid>
+      <v-row>
+        <v-col cols="12">
+          <forma-tasarla/>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
 <script>
 import BarView from "@/components/Bars/galatasarayViewBar/barView.vue";
+import FormaTasarla from "@/components/GalatasarayView/formaTasarla.vue";
 
 export default {
   name: "GalatasarayView",
-  components: {BarView}
+  components: {FormaTasarla, BarView}
 }
 </script>
 
