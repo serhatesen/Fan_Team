@@ -4,6 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 import team from  "@/store/team/team"
+import players from "@/store/GalatasarayPlayers/players"
 
 export default new Vuex.Store({
   state: {
@@ -15,6 +16,7 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
-    team
+    team,
+    players
   }
 })

@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="white" height="120">
+  <v-app-bar app color="white" height="120">
     <img
         class="ml-5"
         width="210"
@@ -7,7 +7,7 @@
         src="https://cdn.gsstore.org/images/frontend/logo-header.svg"/>
     <v-container fluid>
       <v-row>
-        <v-col class="text-right mt-6">
+        <v-col cols="12" class="text-right mt-6">
           <v-btn depressed color="white">
             <Icon icon="mdi:gift" color="#FBC02D" width="20" height="20"/>
             Gift Card
