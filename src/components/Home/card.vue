@@ -1,9 +1,7 @@
 <template>
   <div>
     <v-card
-        color="#90A4AE"
-        width="800"
-        height="400"
+        class="card"
     >
       <v-sheet color="#3E2723" dark class="title text-center">What is your team?</v-sheet>
       <v-container class="text-center">
@@ -36,9 +34,10 @@ import galatasaray from "@/components/Home/teamButton/galatasaray.vue";
 import besiktas from "@/components/Home/teamButton/besiktas.vue";
 import fenev from "@/components/Home/teamButton/fenev.vue";
 import trabzon from "@/components/Home/teamButton/trabzon.vue";
+
 export default {
   name: "cardView",
-  components:{
+  components: {
     galatasaray,
     besiktas,
     fenev,
@@ -48,5 +47,10 @@ export default {
 </script>
 
 <style scoped>
-
+.card{
+  width: 800px;
+  height: 400px;
+  background-color:#000000;
+  opacity:0.5;
+}
 </style>
