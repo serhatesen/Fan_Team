@@ -6,6 +6,12 @@
         <v-col cols="12"></v-col>
         <v-col cols="12"></v-col>
         <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
         <v-col cols="2"></v-col>
         <v-col>
           <card/>

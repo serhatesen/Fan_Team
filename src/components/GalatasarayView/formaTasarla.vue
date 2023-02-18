@@ -131,7 +131,7 @@
                           <v-btn width="70px"
                                  outlined
                                  depressed
-                                 class="grey mt-4 pa-4"
+                                 class="grey ml-4 pa-4"
                                  v-bind:class="{ 'active-button': isButtonWhite3XL }"
                                  @click="bodyButtonSize3XL"
                           >
